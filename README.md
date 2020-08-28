@@ -26,12 +26,17 @@ Here are a few short examples of command line input:
     - Delete all selected value objects on the modules
 
 ## Getting Started
+
 ### Installation
 
-- Place the entire kicommand folder in 
-**C:\Program Files\KiCad\share\kicad\scripting\plugins**
-Or the equivalent in MacOS or Linux
-(*there may be a user-level directory for such files, but I am not aware of it at the moment.*)
+Place the entire `kicommand` folder in:
+
+- Windows: `C:\Program Files\KiCad\share\kicad\scripting\plugins`\
+  (*there may be a user-level directory for such files, but I am not aware of it at the moment.*)
+- Linux: `/usr/share/kicad/scripting/plugins/` or `~/.kicad_plugins/`
+- Mac OSX: `~/Library/Preferences/kicad/scripting`\
+  (although you might experience [problems](
+  https://forum.kicad.info/t/kicad-on-os-x-how-to-use-python-scripts-solved/1004))
 
 #### For KiCad (5.1.5)-3 release:
 KiCommand is an ActionPlugin and is installed similarly to other Action Plugins:
